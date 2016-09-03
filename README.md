@@ -16,5 +16,5 @@
 ## สำหรับผู้ต้องการค้นหาทวีตด้วยตัวเอง
 * ท่านจำเป็นต้องติดตั้งไลบรารี่ `Python-Twitter` ซึ่งสามารถศึกษาวิธีติดตั้งได้จาก [https://github.com/bear/python-twitter](https://github.com/bear/python-twitter)
 * ไฟล์ `tw-search.py` เป็นสคริปต์เพื่อดึงทวีตมาเก็บ ก่อนเริ่มการใช้งานผู้ใช้จะต้องใส่ API Key, API Secret และ Token พร้อม Token Secret และตั้งค่าตัวแปร `wordList` ให้เป็นลิสต์ (อาร์เรย์) ของคำที่จะค้นหา
-* กรณีต้องการ Token และ Token Secret ไฟล์ `tokeniser.py` จะทำการดึง Token และ Token Secret จาก API Key ที่ได้ตั้งค่าไว้ ท่านจำเป็นต้องใช้ API Key และ API Secret เดียวกันกับไฟล์ `tw-search.py`
+* กรณีต้องการ Token และ Token Secret ไฟล์ `tokeniser.py` จะทำการดึง Token และ Token Secret จาก API Key ที่ได้ตั้งค่าไว้ ท่านจำเป็นต้องใช้ API Key และ API Secret เดียวกันกับไฟล์ `tw-search.py` (`tokeniser.py` ใช้ไลบรารี่ `tweepy` ซึ่งท่านต้องติดตั้งเพิ่มเติม)
 * __API Key และ Token ถือเป็นความลับ หากท่านเผยแพร่รหัสชุดดังกล่าว ท่านกำลังให้สิทธิ์กับผู้ใดก็ตามในการใช้งานบัญชีทวิตเตอร์ของท่านผ่าน API Key ซึ่งท่านได้สร้างไว้__
