@@ -5,7 +5,7 @@ import json
 # ตั้ง API ตรงนี้นะครับ
 api = twitter.Api(consumer_key="",
     consumer_secret="",
-    access_token_key="32888622-",
+    access_token_key="",
     access_token_secret="")
 
 wordList = ["แล้ว","แย้ว","แบ้ว","ล้าว"]
